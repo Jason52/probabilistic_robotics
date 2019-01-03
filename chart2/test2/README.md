@@ -25,12 +25,13 @@
 (g) 假设将季节加入到该模型中。上面的状态转移函数仅能应用于夏天， 而不同的模型将应用于冬天、春天和秋天。这会扰乱这个过程的马尔可夫特性 吗？解释你的答案。
 
 ## 【分析】
-    (a)第一天是晴 p(Day1=sunny)=1;第二天是多云p(Day2=cloudy|Day1=sunny)=p(Day2=cloudy)/p(Day1=sunny);第三天是多云p(Day3=cloudy|Day1=sunny,Day2);
-    使用全概率公式对Day2进行展开，求第3天是多云的概率。
+
+(a)第一天是晴 p(Day1=sunny)=1;第二天是多云p(Day2=cloudy|Day1=sunny)=p(Day2=cloudy)/p(Day1=sunny);第三天是多云p(Day3=cloudy|Day1=sunny,Day2);
+使用全概率公式对Day2进行展开，求第3天是多云的概率。
     
-    (b)即写出一个天气的状态转移矩阵
+(b)即写出一个天气的状态转移矩阵
     
-    (c)马尔科夫[平稳分布](https://blog.csdn.net/u012535605/article/details/77507880)指，经过n次迭代之后，各个层的概率收敛于一个常数
+(c)马尔科夫[平稳分布](https://blog.csdn.net/u012535605/article/details/77507880)指，经过n次迭代之后，各个层的概率收敛于一个常数
 
 
 ## 【解】
