@@ -21,4 +21,4 @@
 
 
 ## ½á¹û
-![image]https://github.com/Jason52/probabilistic_robotics/blob/master/chart2/test1/chart2_1.jpg
+![image](https://github.com/Jason52/probabilistic_robotics/blob/master/chart2/test1/chart2_1.jpg)
