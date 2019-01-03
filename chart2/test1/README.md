@@ -17,3 +17,8 @@
 
 	已知：p(X=故障)=0.01，p(M<1m|X=故障)=1，p(M|X=正常)~U(0-3)
 	代入上式得：p(X=故障|M<1m) = 0.01*1/(1/3*(1-0.01)+0.01*1) = 0.0294
+
+
+
+## 结果
+![image]https://github.com/Jason52/probabilistic_robotics/blob/master/chart2/%E7%AC%AC%E4%B8%80%E9%A2%98/chart2_1.jpg
